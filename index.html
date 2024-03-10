@@ -264,6 +264,16 @@ body {
     color: #FFFFFF;
 }
 
+.custom-color-bronze{
+    /* color: #7B6248; */
+    background-color: #7B6248;
+}
+.custom-color-onyx{
+    background-color: #252729;
+}
+.custom-color-silver{
+    background-color: #C3C1C2;
+}
 
 @font-face {
   font-family: 'Nucleo Outline';
@@ -328,7 +338,7 @@ footer p a:hover{
 }
 </style>
 </head>
-<body>
+<body class="custom-color-bronze">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2"></div>
@@ -340,35 +350,58 @@ footer p a:hover{
                           <ul class="nav nav-tabs tab-header" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#market" role="tab">
-                                        <i class="now-ui-icons shopping_cart-simple"></i>The Market
+                                        <i class="material-symbols-outlined">
+                                            shopping_cart
+                                        </i><p class="label-option">The Market</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#hamfire" role="tab">
                                         <i class="material-symbols-outlined">
                                             dinner_dining
-                                        </i>Hammer & Fire
+                                        </i><p class="label-option">Hammer & Fire</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#fitness" role="tab">
                                         <i class="material-symbols-outlined">
                                             exercise
-                                        </i>Fitness Center
+                                        </i><p class="label-option">Fitness Center</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#hsk" role="tab">
                                         <i class="material-symbols-outlined">
                                             cleaning_services
-                                        </i>Housekeeping
+                                        </i><p class="label-option">Housekeeping</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#shuttle" role="tab">
                                         <i class="material-symbols-outlined">
                                             directions_bus
-                                        </i>Shuttle Service
+                                        </i><p class="label-option">Shuttle Service</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#wifi" role="tab">
+                                        <i class="material-symbols-outlined">
+                                            wifi
+                                        </i><p class="label-option">Web Access</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#laundry" role="tab">
+                                        <i class="material-symbols-outlined">
+                                            laundry
+                                        </i><p class="label-option">Laundry Services</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#extra" role="tab">
+                                        <i class="material-symbols-outlined">
+                                            question_mark
+                                        </i><p class="label-option">Something Else</p>
                                     </a>
                                 </li>
                             </ul>
@@ -412,6 +445,25 @@ footer p a:hover{
                                     <h3>Shuttle Service:</h3>
                                     <p>Available to any location within 5 miles, including your local office if applicable.
                                     <br/>Contact the CARE Line, Front Desk, or email your Alloy point of contact directly to setup a time in advance.
+                                    </p>
+                                </div>
+                                <div class="tab-pane" id="wifi" role="tabpanel">
+                                    <h3>Web Access:</h3>
+                                    <p>Available to all guests of the hotel through Hilton's guest verification platform. 
+                                    <br/>When connecting on your mobile device, simply enter the room number and the last name of the primary guest of record.<br/>
+                                    <b>NOT CURRENTLY AVAILABLE FOR WIRED GAMING CONSOLES</b>
+                                    </p>
+                                </div>
+                                <div class="tab-pane" id="laundry" role="tabpanel">
+                                    <h3>Laundry Services:</h3>
+                                    <p>Available to all guests of the hotel for a standard fee.  
+                                    <br/>Simply reach out to any front office staff member at The Alloy.<br/>
+                                    </p>
+                                </div>
+                                <div class="tab-pane" id="extra" role="tabpanel">
+                                    <h3>Questions</h3>
+                                    <p>We want to make sure all of your needs are met.  
+                                    <br/>Feel free to reach out to Parnell.Kelley@hilton.com for all things related to guest experience.<br/>
                                     </p>
                                 </div>
                             </div>
